@@ -1,5 +1,11 @@
 #This docker file is based on: https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/2823422188/Building+Yocto+Images+using+a+Docker+Container
 
+#In order to run this Dockerfile use the following command:
+# -> docker build -t yoctocontainer .
+# 		-> t -> --tag list -> Name and optionally a tag in the name:tag
+# 		-> . -> The current directory. Run this command in the directory where Dockerfile is
+
+
 # Use Ubuntu 22.04
 FROM ubuntu:22.04
 
